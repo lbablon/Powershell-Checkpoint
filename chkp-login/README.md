@@ -10,11 +10,11 @@ The script as been tested on R81.10 with api version 1.8.1, but it should also w
 
 ## Example
 
-`.\chkp-login.ps1 -server 192.168.50.1 -user admin -password Str0nK`
+```.\chkp-login.ps1 -server 192.168.50.1 -user admin -password Str0nK```
 
 Runs the script and returns sid as global variable $sid. 
 
 
-`.\chkp-login.ps1 -server 192.168.50.1 -user admin`
+```.\chkp-login.ps1 -server 192.168.50.1 -user admin```
 
 RUns the script in interactive mode so that it will ask the user for a password with a prompt.
