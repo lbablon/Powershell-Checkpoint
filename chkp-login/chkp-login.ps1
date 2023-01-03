@@ -27,7 +27,7 @@ Sid : Session id to use in x-chkp-sid headers for other api calls
 
 .NOTES
 Written by : Lucas Bablon
-Version : 1.0
+Version : 1.2
 Link : https://github.com/lbablon
     
 #>
@@ -73,7 +73,7 @@ $body=$body| convertto-json -compress
 
 
 #create login URI
-$loginURI="https://${server}/web_api/login"
+$callURI="https://${server}/web_api/login"
 
 
 #allow self-signed certificates
@@ -81,7 +81,7 @@ $loginURI="https://${server}/web_api/login"
 
 
 #api call
-$response=Invoke-WebRequest -Uri $loginURI -Body $body -ContentType application/json -Method POST
+$response=Invoke-WebRequest -Uri $callURI -Body $body -ContentType application/json -Method POST
 
 
 #make the content of the response a powershell object
