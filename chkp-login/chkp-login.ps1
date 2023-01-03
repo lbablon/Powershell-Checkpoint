@@ -70,7 +70,7 @@ $body=@{
 }
     
 $body=$body| convertto-json -compress
-$body
+
 
 #create login URI
 $loginURI="https://${server}/web_api/login"
