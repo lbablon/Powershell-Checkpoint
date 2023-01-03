@@ -1,7 +1,7 @@
 
 # chkp-login.ps1 - Powershell script to connect to Checkpoint webservices api
 
-The script initiates a session with Checkpoint webservices API. IP address of the management api and username are mandatory as input parameters, password will be ask with a prompt.
+Simple powershell script to initiate a session with Checkpoint webservices API. IP address of the management server and username are mandatory as input parameters, password will be ask with a prompt.
 
 The script will then return the api session id as $sid, so that it can be used with other api calls.
 
