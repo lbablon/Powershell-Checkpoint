@@ -17,7 +17,7 @@ Sid :  Session id of the current api session you want to terminate
 
 .NOTES
 Written by : Lucas Bablon
-Version : 1.0
+Version : 1.1
 Link : https://github.com/lbablon
     
 #>
@@ -53,7 +53,7 @@ $body=@{}
 $body=$body | ConvertTo-Json -Compress
 $body
 
-#create login URI
+#create logout URI
 $callURI="https://${server}/web_api/logout"
 
 
