@@ -41,7 +41,7 @@ Execution time can change depending on your management server's sizing, also i n
 "./chkp-accessrules.ps1" -Server 192.168.1.50 -user admin -AccessLayer "Standard"
 ```
 
-Runs the script then asks the user for password then and export all rules from the access layer named "Standard" then asks the user where to save the results as a csv file.
+Runs the script then asks the user for password then and exports all rules from the access layer named "Standard" then asks the user where to save the results as a csv file.
 
 ```
 "./chkp-accessrules.ps1" -Server 192.168.1.50 -user admin -password Str0nK! -AccessLayer "Standard" -Path "C:\Temp\rules.csv"
