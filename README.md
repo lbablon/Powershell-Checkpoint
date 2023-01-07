@@ -1,2 +1,2 @@
 # Powershell-Checkpoint
-A collection of PowerShell scripts and code samples for Checkpoint webservices api.
+A collection of PowerShell scripts and functions for Checkpoint webservices api.
